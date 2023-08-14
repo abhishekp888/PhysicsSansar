@@ -1,0 +1,183 @@
+.WhyUS_main_div {
+  margin-top: 20px;
+  padding: 20px;
+  position: relative;
+}
+
+.App-logo {
+  position: absolute;
+  top: -150px;
+  z-index: 1;
+  right: 50px;
+  height: 40vmin;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 10s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.floating {
+  position: absolute;
+  top: 500px;
+  z-index: 1;
+  height: 25vmin;
+  pointer-events: none;
+}
+
+.floating {
+  animation-name: floating;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  margin-left: 30px;
+  margin-top: 5px;
+}
+
+@keyframes floating {
+  0% {
+    transform: translate(0, 0px);
+  }
+  50% {
+    transform: translate(0, 20px);
+  }
+  100% {
+    transform: translate(0, -0px);
+  }
+}
+
+.mag {
+  position: absolute;
+  top: 1000px;
+  z-index: 1;
+  right: 50px;
+}
+
+.enr {
+  position: absolute;
+  top: 1700px;
+  z-index: 1;
+}
+
+.big {
+  font-size: 45px;
+  font-weight: 900;
+  text-align: center;
+  margin: 0;
+  line-height: 30px;
+  padding: 10px 10px 10px 10px;
+  margin: 10px 10px 10px 10px;
+  color: rgb(24, 75, 130);
+}
+
+.success {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 600;
+  color: rgb(59, 58, 58);
+}
+
+.main_div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.section {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(167, 200, 253);
+  margin: 20px;
+  padding: 20px;
+}
+
+.info_img {
+  padding: 20px;
+  margin: 20px;
+}
+
+.infoHome {
+  font-size: 18px;
+  color: rgb(46, 46, 46);
+  padding: 10px;
+  margin: 10px;
+}
+
+.title {
+  font-size: 25px;
+  font-weight: 900;
+  /* color: #5541ba; */
+  color: rgb(24, 75, 130);
+  padding: 10px;
+  margin: 10px;
+}
+
+.color {
+  color: rgb(60, 59, 59);
+}
+
+.color2 {
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.dir img {
+  display: block;
+  margin: 0 auto;
+  max-width: 70%;
+}
+
+.first {
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+}
+
+.last {
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+}
+
+/* Media Queries */
+@media screen and (max-width: 900px) {
+  .floating,
+  .App-logo {
+    opacity: 0.5 !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .big {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 480px) {
+  .big {
+    font-size: 35px;
+  }
+}
+
+@media (max-width: 700px) {
+  .section {
+    display: block;
+    width: 90%;
+  }
+
+  .info_img {
+    display: block;
+    margin: 0 auto;
+  }
+}

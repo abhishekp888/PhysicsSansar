@@ -1,0 +1,140 @@
+  .Wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .CourseOverview {
+    display: flex;
+    flex-direction: row;
+    margin-top: 4%;
+    justify-content: space-between;
+    align-content: center;
+    background-color: rgb(107, 162, 250);
+    background-image: url(./logo.png);
+    background-size: 75%;
+    background-repeat: no-repeat;
+    background-position: right;
+  }
+  .ReverseText {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    margin: 4% 7.5%;
+  }
+  .ReverseText p {
+    /* color: rgb(225, 225, 225); */
+    color: white;
+    font-weight: 475;
+  }
+  .WelcomeText p {
+    font-size: 24px;
+    padding-bottom: 15px;
+  }
+  .BriefDetails {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    height: 650px;
+    margin: 1% 7.5%;
+    max-height: 650px;
+    width: 420px;
+    max-width: 420px;
+    border-radius: 15px;
+    background-color: #ffffffc2;
+    box-shadow: 3px 3px 3px #a9aaab;
+    /* z-index: +1; */
+  }
+  .CourseInfo {
+    padding: 30px;
+    padding-bottom: 15px;
+  }
+  .CourseBottom {
+    display: flex;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    gap: 10%;
+    text-align: center;
+  }
+  .BriefDetails p {
+    font-size: 16px;
+    font-weight: 450;
+  }
+
+  .CourseDescription {
+    padding-top: 40px;
+    padding-bottom: 30px;
+  }
+  .PurchaseButton {
+    height: 50px;
+    width: 90%;
+    border-radius: 10px;
+    border-color: rgb(107, 162, 250);
+    background-color: transparent;
+    border-style: solid;
+    font-size: 18px;
+    font-family: "Poppins";
+  }
+  .Image {
+    width: 380px;
+
+    border-radius: 15px;
+  }
+  .point_course {
+    font-size: 20px;
+    line-height: 1.75;
+    margin: 0px;
+    padding: 0px;
+    font-family: "Poppins";
+  }
+  h1 {
+    font-size: 48px;
+    /* color: rgb(225, 225, 225); */
+    color: white;
+  }
+  i {
+    font-size: 25px;
+    color: white;
+  }
+  @media screen and (max-width: 1200px) {
+    .BriefDetails {
+      margin: 5%;
+      margin-top: 50px;
+    }
+    .ReverseText {
+      margin: 5%;
+    }
+  }
+  @media screen and (max-width: 1050px) {
+    .ReverseText {
+      width: 90%;
+    }
+    .CourseOverview {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .CourseOverview {
+        height: 100%;
+    }
+
+  }
+  @media screen and (max-width: 500px) {
+    .BriefDetails {
+      width: 90%;
+    }
+    .ReverseText {
+      margin-left: 12.5%;
+      margin-right: 12.5%;
+    }
+    .Image {
+      width: 100%;
+    }
+    h1 {
+      font-size: 36px;
+    }
+    p {
+      font-size: 16px;
+    }
+  }

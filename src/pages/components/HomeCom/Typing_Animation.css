@@ -1,0 +1,71 @@
+.TypingAnimation_main {
+  width: 90%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin: auto;
+  /* background-color: rgb(119, 165, 245);
+  background-color: #00a0e3;
+  background-color: #4cbdec; */
+  background-color: #5abdec;
+  padding: 20px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 10px rgba(46, 46, 46, 0.749);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.typing_main {
+  font-size: 50px;
+  font-weight: 900;
+  color: rgb(230, 230, 230);
+}
+
+.join_us {
+  font-size: 20px;
+  font-weight: 500;
+  border-radius: 10px;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin: 5px;
+  /* border: 1px solid aliceblue; */
+  border: none;
+  /* background-color: rgb(0, 14, 67); */
+  /* background-color: rgb(38, 132, 255); */
+  background-color: rgb(24, 75, 130);
+  box-shadow: 5px 5px 10px rgb(189, 219, 244);
+  color: white;
+  cursor: pointer;
+  height: 50px;
+  width: 150px;
+  transition: all 0.3s;
+}
+
+.join_us:hover {
+  box-shadow: 5px 5px 10px rgb(167, 204, 237);
+}
+
+@media (max-width: 768px) {
+  .TypingAnimation_main {
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+  }
+
+  .typing_main {
+    font-size: 30px;
+  }
+  .TypeAnimation {
+    font-size: 30px;
+  }
+  .TypingAnimation_main span {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 660px) {
+  .TypingAnimation_main {
+    display: block;
+  }
+}

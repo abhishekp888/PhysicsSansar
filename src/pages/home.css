@@ -1,0 +1,10 @@
+#Navbar{
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+  }
+  .slideshow-container{
+    z-index: 999;
+    position: static;
+  }

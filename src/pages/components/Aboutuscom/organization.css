@@ -1,0 +1,123 @@
+.outer_join {
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    border-radius: var(--radius);
+    box-shadow: 10px 10px 10px rgb(148, 145, 145);
+    justify-content: center;
+    border-radius: 20px;
+    align-items: center;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  .outer_join .info_join {
+    width: 50%;
+    height: 100%;
+    padding: 40px 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .outer_join .info_join h2 {
+    width: 100%;
+    font-size: 20px;
+    padding: 10px 10px 20px 10px;
+    letter-spacing: 0.5px;
+    word-spacing: 2px;
+    color: rgb(71, 110, 241);
+    font-family: sans-serif;
+  }
+
+  .outer_join .info_join h1 {
+    width: 100%;
+    padding: 10px 10px 20px 10px;
+    font-size: 25px;
+    color: rgb(45, 40, 40);
+  }
+
+  .outer_join .info_join p {
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+  }
+
+  .outer_join .info_join .butn_join {
+    width: 100%;
+    padding: 30px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .outer_join .info_join .butn_join a {
+    text-decoration: none;
+  }
+
+  .outer_join .info_join .butn_join span {
+    padding: 8px 50px;
+    font-size: 18px;
+    font-weight: 700;
+    color: rgb(45, 40, 40);
+    border-radius: 5px;
+    background: rgb(147, 171, 247);
+  }
+
+  .outer_join .info_join .butn_join span:hover {
+    box-shadow: 0 0 3px black;
+    background: rgb(126, 126, 250);
+  }
+
+  .outer_join .team_join {
+    width: 50%;
+    height: auto;
+  }
+
+  .outer_join .team_join .team_img {
+    width: 500px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: var(--radius);
+  }
+
+  @media screen and (max-width: 1100px) {
+    .outer_join .team_join {
+      width: 100%;
+    }
+    .outer_join .team_join .team_img {
+      border-top-right-radius: var(--radius);
+      border-bottom-right-radius: 0px;
+    }
+    .outer_join .info_join {
+      width: 100%;
+    }
+    .outer_join .info_join h1,
+    .outer_join .info_join h2 {
+      text-align: center;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .outer_join {
+      flex-direction: column;
+    }
+    .outer_join .info_join {
+      width: 100%;
+      padding: 40px;
+    }
+    .outer_join .team_join {
+      width: 100%;
+      margin-top: 20px;
+    }
+  }
+
+  @media screen and (max-width: 510px) {
+   #img_item {
+      width: 80%;
+      display: block;
+      margin: auto;
+    }
+  }

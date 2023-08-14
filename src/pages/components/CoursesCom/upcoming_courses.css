@@ -1,0 +1,100 @@
+.heading_upcoming12 {
+  color: rgb(3, 50, 131);
+  font-size: 45px;
+  text-align: center;
+  font-weight: 900;
+  margin: 10px;
+}
+
+.main_upcoming_courses {
+  width: 30%;
+  margin: auto;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: rgb(255, 255, 255);
+  transition: all 0.5s;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  border: 1px solid rgb(188, 187, 187);
+}
+
+.main_upcoming_courses:hover {
+  box-shadow: 5px 5px 10px rgb(213, 211, 211);
+}
+
+.upcoming_courses_img img {
+  width: 95%;
+  border-radius: 10px;
+  display: block;
+  margin: auto;
+}
+.heading_upcoming {
+  color: rgb(47, 46, 46);
+  font-size: 45px;
+  text-align: center;
+  font-weight: 900;
+  margin: 10px;
+}
+
+.main_upcoming_courses {
+  width: 40%;
+  margin: auto;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: rgb(255, 255, 255);
+  transition: all 0.5s;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+.main_upcoming_courses:hover {
+  box-shadow: 5px 5px 10px rgb(213, 211, 211);
+}
+
+.upcoming_courses_img img {
+  width: 100%;
+  border-radius: 10px;
+  display: block;
+  margin: auto;
+}
+
+hr {
+  margin: 5px;
+}
+
+.upcoming_courses_info {
+  padding: 10px;
+  text-align: center;
+}
+
+.upcoming_courses_info button {
+  /* background-color: rgb(27, 209, 161); */
+  background-color: rgb(24, 75, 130);
+  border-radius: 10px;
+  border: 1px solid;
+  width: 200px;
+  margin: 0 auto;
+  color: rgb(255, 255, 255);
+  font-weight: 600;
+}
+
+/* Responsive CSS */
+@media screen and (max-width: 768px) {
+  .main_upcoming_courses {
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .main_upcoming_courses {
+    width: 90%;
+  }
+
+  .heading_upcoming {
+    font-size: 35px;
+  }
+
+  .upcoming_courses_info button {
+    width: 120px;
+  }
+}

@@ -1,0 +1,14 @@
+.main_header{
+  position: relative;
+}
+
+.header_info{
+  position: absolute;
+
+}
+
+#background-video {
+  width: 100%;
+  top: 50%;
+  left: 40%;
+}

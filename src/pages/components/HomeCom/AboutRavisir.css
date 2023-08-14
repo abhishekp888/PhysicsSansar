@@ -1,0 +1,122 @@
+.about-ravi-sir {
+  display: flex;
+  width: 90%;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.image-container {
+  border-radius: 20px;
+  width: 100%;
+  max-width: 400px;
+  overflow: hidden;
+  box-shadow: 5px 5px 15px rgb(181, 217, 248);
+  box-shadow: 5px 5px 15px rgba(50, 50, 93, 0.4);
+  border-radius: 15px;
+  margin: 15px;
+  margin-top: 20px;
+  margin-right: 5%;
+}
+
+.image-container img:hover {
+  transform: scale(1.1);
+}
+
+.text-container {
+  margin: 10px;
+  align-self: center;
+}
+
+.text-container_name {
+  font-size: 40px;
+  padding: 10px;
+  padding-bottom: 0px;
+  padding-left: 0;
+  color: black;
+
+  font-weight: 500;
+}
+
+.text-container_vision {
+  font-size: 28px;
+  /* padding: 10px; */
+  color: rgb(24, 75, 130);
+  padding-bottom: 20px;
+}
+
+.text-container_info {
+  font-size: 18px;
+  font-weight: 400;
+  color: rgb(67, 63, 63);
+  padding-bottom: 40px;
+}
+
+.text-container button {
+  /* background-color:  rgb(0, 14, 67); */
+  background-color: rgb(24, 75, 130);
+  color: white;
+  box-shadow: 5px 5px 10px rgb(189, 219, 244);
+  border: 1px solid aliceblue;
+  border-radius: 10px;
+  font-size: 15px;
+  padding: 10px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.image-container img {
+  width: 100%;
+  margin: 20px;
+  border-radius: 10px;
+  transition: all 0.5s;
+}
+/* Media queries for responsiveness */
+@media screen and (max-width: 900px) {
+  .text-container_name {
+    font-size: 35px;
+  }
+
+  .text-container_info {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .about-ravi-sir {
+    flex-direction: column;
+  }
+
+  .image-container {
+    margin: auto;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .text-container_name {
+    font-size: 30px;
+  }
+
+  .text-container_info {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .text-container_name {
+    font-size: 25px;
+  }
+
+  .text-container_info {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 370px) {
+  .image-container {
+    margin: 0px;
+  }
+  .image-container img {
+    margin: 0px;
+  }
+}

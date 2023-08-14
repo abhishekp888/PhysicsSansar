@@ -1,0 +1,125 @@
+* {
+  font-family: "Poppins";
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.Courses_main {
+  /* background-color: rgb(107, 162, 250); */
+  /* background-color: white; */
+}
+
+.eng_img {
+  width: 300px;
+  height: 300px;
+  display: block;
+  margin: auto;
+}
+
+.big-font-size {
+  font-size: 45px;
+  font-weight: bolder;
+  text-align: center;
+  font-weight: 900;
+  padding: 20px;
+  color: rgb(24, 75, 130);
+}
+
+.Courses {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: 80px;
+  margin-right: 80px;
+}
+
+.Course {
+  flex: 1 1 300px;
+  max-width: 350px;
+  margin: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px rgba(93, 92, 92, 0.492);
+}
+
+.heading {
+  font-size: 20px;
+  text-align: center;
+  /* background-color: rgb(0, 176, 245); */
+  /* background-color: rgb(138, 177, 254); */
+  background-color: rgb(24, 75, 130);
+
+  color: rgb(254, 254, 254);
+  font-weight: 900;
+  padding: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.click a {
+  text-decoration: none;
+  text-align: center;
+  padding: 15px;
+  padding-bottom: 7.5px;
+  cursor: pointer;
+  font-weight: 600;
+  /* color: rgb(19, 114, 187); */
+  color: rgb(24, 75, 130);
+  font-size: 17px;
+}
+
+li {
+  padding: 8px;
+}
+
+.CheckMore {
+  border: 1px solid rgb(94, 177, 250);
+  border-radius: 20px;
+  padding: 5px;
+  display: block;
+  margin: auto;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  height: 45px;
+  background-color: rgb(167, 200, 253);
+}
+
+.best_lines p {
+  font-size: 18px;
+  text-align: center;
+  font-weight: 600;
+  /* color: #5541ba; */
+  color: rgb(68, 67, 67);
+}
+
+/* Media Queries for Responsiveness */
+
+@media (max-width: 768px) {
+  .Courses {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .Course {
+    flex: 1 1 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .big-font-size {
+    font-size: 35px;
+  }
+
+  .Courses {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .Course {
+    margin: 10px;
+  }
+}

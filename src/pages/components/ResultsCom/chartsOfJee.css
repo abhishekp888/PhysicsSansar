@@ -1,0 +1,79 @@
+.ChartsOfJee_main {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  padding: 20px;
+  margin: auto;
+}
+.ChartsOfJee_info {
+  margin: 10px;
+  margin-left: 0px;
+  width: 600px;
+}
+
+p {
+  font-size: 18px;
+  font-weight: 500;
+  color: rgb(68, 67, 67);
+}
+
+.ChartsOfJee_heading {
+  font-size: 45px;
+  font-weight: 900;
+  color: rgb(24, 75, 130);
+}
+
+.Chart {
+  margin: 10px;
+  padding: 10px;
+}
+
+@media (max-width: 1030px) {
+  .ChartsOfJee_main {
+    display: block;
+    width: 80%;
+    margin: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .ChartsOfJee_main {
+    display: block;
+    width: auto;
+    margin: auto;
+  }
+
+  .ChartsOfJee_info {
+    margin-left: 20px;
+  }
+
+  .ChartsOfJee_heading {
+    font-size: 35px;
+  }
+
+  .ChartsOfJee_info {
+    width: auto;
+  }
+}
+
+.Chart {
+  width: 500px;
+}
+
+@media (max-width: 768px) {
+  .Chart {
+    width: 400px;
+  }
+}
+
+@media (max-width: 430px) {
+  .ChartsOfJee_heading {
+    font-size: 35px;
+  }
+}
+
+@media (max-width: 430px) {
+  .Chart {
+    width: 300px;
+  }
+}

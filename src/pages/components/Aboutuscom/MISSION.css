@@ -1,0 +1,106 @@
+.main_MISSION {
+  width: 80%;
+  margin: auto;
+}
+
+.tital {
+  font-size: 45px;
+  font-weight: 900;
+  text-align: center;
+  font-family: "Poppins";
+  padding: 20px;
+  margin: 20px;
+  margin-top: 0;
+  color: rgb(24, 75, 130);
+}
+
+.statisticalAnalysis {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+}
+
+.Analysis {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 0;
+  padding: 30px;
+  margin: 30px;
+}
+
+.count {
+  font-size: 45px;
+  font-weight: 900;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+.on {
+  font-size: 20px;
+  color: rgb(202, 200, 200);
+  font-weight: 700;
+  padding: 0;
+  margin: 0;
+  text-align: center;
+}
+
+.Analysis span {
+  background-color: rgb(39, 132, 254);
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  width: 220px;
+}
+
+.app_img {
+  width: 100%;
+  padding: 10px;
+  margin: 10px;
+}
+
+.app_img img {
+  width: 100%;
+}
+
+@media (max-width: 1100px) {
+  .statisticalAnalysis {
+    display: block;
+  }
+}
+@media (max-width: 768px) {
+  .missionTitle {
+    width: 90%;
+  }
+
+  .Analysis {
+    padding: 0px;
+    margin: 0px;
+  }
+
+  .Analysis span {
+    padding: 3px;
+    margin: 3px;
+    width: 80%;
+  }
+
+  .count {
+    font-size: 25px;
+  }
+
+  .on {
+    font-size: 15px;
+  }
+
+  .app_img img {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+  }
+}
+
+@media (max-width: 480px) {
+  .tital {
+    font-size: 30px;
+  }
+}

@@ -1,0 +1,22 @@
+.HeadName {
+  padding: 60px;
+  padding-bottom: 0px;
+  text-align: center;
+  background-color: #f8f8fd;
+  background-color: aliceblue;
+}
+.HeadName h2 {
+  font-size: 45px;
+  color: rgb(24, 75, 130);
+}
+
+@media screen and (max-width: 850px) {
+  .HeadName {
+    padding-top: 30px;
+  }
+}
+@media screen and (max-width: 525px) {
+  .HeadName h2 {
+    font-size: 35px;
+  }
+}
